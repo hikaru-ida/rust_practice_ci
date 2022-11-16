@@ -2,7 +2,7 @@ name: Rust
 
 on:
   pull_request:
-    types: [opend, synchronize]
+    types: [opened, synchronize]
   workflow_dispatch:
 
 env:
